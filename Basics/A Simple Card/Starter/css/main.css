@@ -1,1 +1,63 @@
 /* test commit */
+
+body {
+    background: #20262C;
+    /* overwrite default margins  */
+    margin: 0; 
+    /* width: 1385px; */
+    /* height: 917px;
+     */
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    width: 300px;
+    /* border-radius: 14px; */
+    border-radius: 1em;
+    background: #2F3740;
+    padding: 1.125em;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.4em;
+}
+
+.tag {
+    background: #455260;
+    border-radius: 0.4em;
+    color: #BEFF00;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.2em 0.6em;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+h1 a {
+    color: white;
+    font-size: 2.5rem;
+    line-height: 120%;    
+}
+
+.cta {
+    color: white;
+    display: flex;
+}
+
+a.cta p {
+    margin: 0px;
+    color: #B1C4D9;
+}
+
+svg {
+    align-self: center;
+    margin-left: 0.5em;
+}

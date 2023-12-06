@@ -1,6 +1,6 @@
 
 html {
-    /*font-size: 16px default*/
+    font-size: 16px default
 }
 body {
     height: 100vh;
@@ -13,14 +13,42 @@ body {
     grid-template-rows: repeat(2, auto);
     align-items: center;
     height: 100vh;
+    /* font-size: 30px; */
 }
 
 .card {
     width: 30%;
-    height: 300px;
+    /* height: 300px; */
     margin: 0 auto;
     background: white;
     border-radius: 1em;
     padding: 0 2em;
 
 }
+
+.card1 h1 {
+    font-size: 2em;
+
+}
+
+.card1 p {
+    font-size: 1em;
+    
+}
+
+.card2 h1 {
+    font-size: 2rem;
+
+}
+
+.card2 p {
+    font-size: 1rem;
+    
+}
+
+/*
+TYPOGRAPHY - we use rem unit - it will always refer back to default font-size - html element
+
+MARGIN AND PADDING - We use em units - use-case: layouts 
+
+*/

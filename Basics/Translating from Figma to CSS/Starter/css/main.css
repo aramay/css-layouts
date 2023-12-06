@@ -3,23 +3,28 @@ html {
 }
 
 body {
-    margin: 6.2em;
     background: #FCE7FF;
     font-family: "Poppins";
+    /* margin: 3.875em; */
+    margin: 6.2em;
 }
 
 h1 {
+    /* margin: 0; */
+    margin: 0 0 1,46em 0;
     font-size: 2.6rem;
     line-height: 120%;
 }
 
 a {
-    font-size: 1.6rem;
     font-weight: bold;
     color: white;
     text-decoration: none;
     background: #933A9F;
     display: inline-block;
-    padding: 1.25rem;
-    border-radius: .375rem;
+    font-size: 1.6rem;
+    /* padding: 1.6em 2em; */
+
+    padding: 1em 1.25em;
+    border-radius: 0.6rem;
 }
